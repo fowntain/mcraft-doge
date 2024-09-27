@@ -50,7 +50,7 @@ export default ({
       <div className={styles['game-title']}>
         <div className={styles.minecraft}>
           <div className={styles.edition} />
-          <span className={styles.splash}>Prismarine is a beautiful block</span>
+          <span className={styles.splash}>DogeCraft, powered by PrismarineJS and zardoY!</span>
         </div>
       </div>
 
@@ -114,7 +114,7 @@ export default ({
           onClick={onVersionClick}
           className={styles['product-info']}
         >
-          Prismarine Web Client {versionStatus}
+          DogeCraft Web Client {versionStatus}
         </span>
         <span className={styles['product-description']}>
           <div className={styles['product-link']}>

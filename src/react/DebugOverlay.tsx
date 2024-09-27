@@ -141,7 +141,7 @@ export default () => {
 
   return <>
     <div className={styles['debug-left-side']}>
-      <p>Prismarine Web Client ({bot.version})</p>
+      <p>DogeCraft Web Client ({bot.version})</p>
       <p>E: {entitiesCount}</p>
       <p>{dimension}</p>
       <div className={styles.empty} />

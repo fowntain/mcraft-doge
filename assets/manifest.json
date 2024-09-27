@@ -1,6 +1,6 @@
 {
-    "name": "Prismarine Web Client",
-    "short_name": "Prismarine Web Client",
+    "name": "DogeCraft Web Client",
+    "short_name": "DogeCraft Web Client",
     "scope": "./",
     "start_url": "./",
     "icons": [

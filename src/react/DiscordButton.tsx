@@ -11,8 +11,8 @@ export const DiscordButton = () => {
       clickHandler: () => openURL('https://discord.gg/xzGRhxtRUt')
     },
     {
-      text: 'Community Server (PrismarineJS)',
-      clickHandler: () => openURL('https://discord.gg/4Ucm684Fq3')
+      text: 'Community Server (Doge Unblocker)',
+      clickHandler: () => openURL('https://discord.gg/unblocking')
     }
   ]
 

@@ -135,7 +135,7 @@ const Inner = () => {
   const [proxies, setProxies] = useState<readonly string[]>(localStorage['proxies'] ? JSON.parse(localStorage['proxies']) : getInitialProxies())
   const [selectedProxy, setSelectedProxy] = useState(localStorage.getItem('selectedProxy') ?? proxies?.[0] ?? '')
   const [serverEditScreen, setServerEditScreen] = useState<StoreServerItem | true | null>(null) // true for add
-  const [defaultUsername, setDefaultUsername] = useState(localStorage['username'] ?? (`mcrafter${Math.floor(Math.random() * 1000)}`))
+  const [defaultUsername, setDefaultUsername] = useState(localStorage['username'] ?? (`dogecrafter${Math.floor(Math.random() * 1000)}`))
   const [authenticatedAccounts, setAuthenticatedAccounts] = useState<AuthenticatedAccount[]>(JSON.parse(localStorage['authenticatedAccounts'] || '[]'))
 
   useEffect(() => {
